@@ -24,3 +24,4 @@ $stdout = File.open('user.txt', 'w')
 i = User.new
 puts "Имя #{i.fio}"
 puts "Профессия #{i.profession}"
+puts 'Профессия' + i.profession
